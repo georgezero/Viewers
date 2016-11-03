@@ -1,0 +1,30 @@
+{
+  "servers": {
+    "dicomWeb": [
+      {
+        "name": "Orthanc",
+        "wadoUriRoot": "http://pee:8042/wado",
+        "qidoRoot": "http://pee:8042/dicom-web",
+        "wadoRoot": "http://pee:8042/dicom-web",
+        "qidoSupportsIncludeField": false,
+        "imageRendering": "wadouri",
+        "requestOptions": {
+          "auth": "orthanc:orthanc",
+          "logRequests": true,
+          "logResponses": false,
+          "logTiming": true
+        }
+      }
+    ]
+  },
+  "defaultServiceType": "dicomWeb",
+  "public": {
+    "verifyEmail": false,
+    "ui": {
+        "studyListFunctionsEnabled": true,
+        "leftSidebarOpen": false,
+        "displaySetNavigationLoopOverSeries": false,
+        "displaySetNavigationMultipleViewports": true
+    }
+  }
+}

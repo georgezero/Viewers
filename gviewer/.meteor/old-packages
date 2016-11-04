@@ -44,4 +44,4 @@ johdirr:meteor-git-rev
 wadoproxy
 aldeed:template-extension
 peppelg:bootstrap-3-modal
-#shell-server
+shell-server

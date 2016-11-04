@@ -6,8 +6,8 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-    api.use('accounts-base@1.0.0', ['client','server']);
-    api.use('jquery@1.0.0', 'client');
+    api.use('accounts-base', ['client','server']);
+    api.use('jquery', 'client');
     api.addFiles('client.js', 'client');
     api.addFiles('server.js', 'server');
 });

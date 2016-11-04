@@ -39,3 +39,7 @@ docker run --rm -p 4242:4242 -p 8042:8042 jodogne/orthanc-plugins
     ````
 
 3. Upload your data and it will be persisted
+
+# Install Meteor 1.3.4.1 for Raspberry Pi
+
+git clone --depth 1 https://github.com/4commerce-technologies-AG/meteor.git
